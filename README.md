@@ -10,4 +10,4 @@
 #### ❌ Add plugin usage (with in-game screen-shots)
 
 ##
-###### ur ✨ gives me strenth to develope more plugins :)
+###### ur ✨ gives me strength to develope more plugins :)
