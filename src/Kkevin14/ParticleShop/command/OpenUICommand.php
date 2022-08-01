@@ -9,7 +9,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
 
-class MainCommand extends Command
+class OpenUICommand extends Command
 {
     public ParticleShop $owner;
 
