@@ -14,7 +14,7 @@ use pocketmine\network\mcpe\protocol\LevelEventPacket;
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use Kkevin14\ParticleShop\task\RotateTask;
-use Kkevin14\ParticleShop\command\MainCommand;
+use Kkevin14\ParticleShop\command\OpenUICommand;
 use pocketmine\utils\Config;
 
 class ParticleShop extends PluginBase
@@ -153,7 +153,7 @@ class ParticleShop extends PluginBase
         $this->getScheduler()->scheduleDelayedRepeatingTask(new RotateTask($this), 4, 4);
         $this->getScheduler()->scheduleDelayedRepeatingTask(new AddParticleTask($this), 2, 4);
 
-        $this->getServer()->getCommandMap()->register('파티클상점', new MainCommand($this));
+        $this->getServer()->getCommandMap()->register('Kkevin14', new OpenUICommand($this));
 
         $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
 
