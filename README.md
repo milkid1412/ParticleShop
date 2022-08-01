@@ -1,6 +1,6 @@
 # ParticleShop
 
-  ## TODO
-    ### ❌ Provide english translation
-    ### ❌ Add jump particle's shape
-    ### ❌ idk what to do more :(
+## TODO
+### ❌ Provide english translation
+### ❌ Add jump particle's shape
+### ❌ Add new feature that support R-34
