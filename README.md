@@ -1,9 +1,9 @@
 # ParticleShop
 
-### Usage
+## Usage
 #### ...
 
-### TODO
+## TODO
 #### ✔ Change jump particle's name(cutie ver ><)
 #### ❌ Provide english translation
 #### ❌ Add jump particle's shape
