@@ -126,14 +126,14 @@ class ParticleShop extends PluginBase
         ]
     ], $pk = [], $jump_particles = [
         [
-            'name' => 'test',
+            'name' => '뿅',
             'type' => null,
             'particle' => ParticleIds::SPARKLER,
             'data' => [255, 255, 255],
             'price' => 5
         ],
         [
-            'name' => 'test1',
+            'name' => '뾰로롱',
             'type' => 'circles_rgb',
             'particle' => ParticleIds::SPARKLER,
             'data' => [255, 255, 255],
