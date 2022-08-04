@@ -15,7 +15,7 @@ class OpenUICommand extends Command
 
     public function __construct(ParticleShop $owner)
     {
-        parent::__construct('파티클', '파티클을 관리합니다.', '/파티클', ['파티클상점']);
+        parent::__construct('파티클', '파티클을 관리합니다.', '/파티클', ['파티클상점', 'ps', 'particleshop']);
         $this->owner = $owner;
     }
 
